@@ -11,40 +11,40 @@ import {
   Trash2, 
   Edit2, 
   Save, 
-  X,
-  Printer,
-  Share2,
-  Download,
-  Barcode,
-  Percent,
-  LogOut,
-  Menu,
-  Search,
-  Bell,
-  CheckCircle,
-  AlertCircle,
-  ArrowUpRight,
-  ArrowDownRight,
-  Building2,
-  Database,
-  RefreshCw,
-  Mail,
-  Phone,
-  MapPin,
-  Locate,
-  Calculator,
-  Wallet,
-  Landmark,
-  Receipt,
-  Package,
-  Camera,
-  Image as ImageIcon
+  X, 
+  Printer, 
+  Share2, 
+  Download, 
+  Barcode, 
+  Percent, 
+  LogOut, 
+  Menu, 
+  Search, 
+  Bell, 
+  CheckCircle, 
+  AlertCircle, 
+  ArrowUpRight, 
+  ArrowDownRight, 
+  Building2, 
+  Database, 
+  RefreshCw, 
+  Mail, 
+  Phone, 
+  MapPin, 
+  Locate, 
+  Calculator, 
+  Wallet, 
+  Landmark, 
+  Receipt, 
+  Package, 
+  Camera, 
+  Image as ImageIcon 
 } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line } from 'recharts';
-import { Client, Invoice, InvoiceItem, Expense, Product, ClientType, ViewState, AppState, CompanySettings } from './types';
-import { loadData, saveData, generateId } from './services/dataService';
-import { Logo } from './components/Logo';
-import { GoogleSuite } from './components/GoogleSuite';
+import { Client, Invoice, InvoiceItem, Expense, Product, ClientType, ViewState, AppState, CompanySettings } from './types.ts';
+import { loadData, saveData, generateId } from './services/dataService.ts';
+import { Logo } from './components/Logo.tsx';
+import { GoogleSuite } from './components/GoogleSuite.tsx';
 
 // --- Utilities ---
 const formatCurrency = (amount: number) => {

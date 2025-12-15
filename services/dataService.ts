@@ -1,4 +1,4 @@
-import { Client, Invoice, Expense, AppState, CompanySettings } from '../types';
+import { Client, Invoice, Expense, AppState, CompanySettings } from '../types.ts';
 
 const STORAGE_KEY = 'acrozela_data_v4'; // Incremented version for new schema
 
